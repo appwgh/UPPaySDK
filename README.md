@@ -11,6 +11,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+#### SDK3.3.3 - 2016-2-24
+1. 优化系统结构，提升性能
+
 ## Installation
 
 UPPaySDK is available through [CocoaPods](http://cocoapods.org). To install
@@ -22,8 +25,10 @@ pod "UPPaySDK"
 
 ## Author
 
-wgh, appwgh@gmail.com
+China UnionPay, https://open.unionpay.com/ajweb/index
 
 ## License
 
 UPPaySDK is available under the MIT license. See the LICENSE file for more info.
+
+

@@ -8,35 +8,24 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UPPaySDK'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of UPPaySDK.'
+  s.version          = '3.3.3'
+  s.summary          = '银联支付控件 for iOS'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/UPPaySDK'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'wgh' => 'appwgh@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/UPPaySDK.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.homepage         = "https://open.unionpay.com/ajweb/index"
+  s.license = {
+    :type => "Copyright",
+    :text => "中国银联 版权所有."
+  }
+  s.author           = { 'unionpay' => 'https://open.unionpay.com/ajweb/index' }
+  s.source           = { :git => 'https://github.com/appwgh/UPPaySDK.git', :tag => "#{s.version}" }
 
   s.ios.deployment_target = '8.0'
+  s.requires_arc = true
 
-  s.source_files = 'UPPaySDK/Classes/**/*'
+  s.source_files = 'libUPPaySDK/*.h'
+  s.vendored_libraries  = 'libUPPaySDK/libPaymentControl.a'
   
-  # s.resource_bundles = {
-  #   'UPPaySDK' => ['UPPaySDK/Assets/*.png']
-  # }
+  s.frameworks = 'CFNetwork','SystemConfiguration','Security'
+  s.library = 'z'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
