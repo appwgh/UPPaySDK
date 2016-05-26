@@ -1,6 +1,5 @@
 # UPPaySDK
 
-[![CI Status](http://img.shields.io/travis/wgh/UPPaySDK.svg?style=flat)](https://travis-ci.org/wgh/UPPaySDK)
 [![Version](https://img.shields.io/cocoapods/v/UPPaySDK.svg?style=flat)](http://cocoapods.org/pods/UPPaySDK)
 [![License](https://img.shields.io/cocoapods/l/UPPaySDK.svg?style=flat)](http://cocoapods.org/pods/UPPaySDK)
 [![Platform](https://img.shields.io/cocoapods/p/UPPaySDK.svg?style=flat)](http://cocoapods.org/pods/UPPaySDK)

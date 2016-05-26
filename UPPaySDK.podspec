@@ -26,6 +26,6 @@ Pod::Spec.new do |s|
   s.vendored_libraries  = 'libUPPaySDK/libPaymentControl.a'
   
   s.frameworks = 'CFNetwork','SystemConfiguration','Security'
-  s.library = 'z'
+  s.library = 'z', 'stdc++'
 
 end
