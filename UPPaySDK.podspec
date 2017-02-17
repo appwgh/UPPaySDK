@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UPPaySDK'
-  s.version          = '3.3.3'
+  s.version          = '3.3.6'
   s.summary          = '银联支付控件 for iOS'
 
   s.homepage         = "https://open.unionpay.com/ajweb/index"

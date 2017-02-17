@@ -10,6 +10,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+#### SDK3.3.6 - 2017-02-15
+1. 支持苹果ATS要求
+
 #### SDK3.3.3 - 2016-2-24
 1. 优化系统结构，提升性能
 
